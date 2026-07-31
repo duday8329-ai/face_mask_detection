@@ -22,14 +22,6 @@ feed, and alert when a person without a mask is detected.
 ## Project Structure
 
 ```
-face-mask-detection/
-├── dataset/
-│   ├── with_mask/          # place masked-face images here
-│   └── without_mask/       # place unmasked-face images here
-├── model/                  # trained model + training plot saved here
-├── static/
-├── templates/
-│   └── index.html          # Flask upload UI
 ├── train_mask_detector.py  # trains the CNN
 ├── detect_mask_video.py    # real-time webcam detection + alert
 ├── app.py                  # optional Flask app for image upload
